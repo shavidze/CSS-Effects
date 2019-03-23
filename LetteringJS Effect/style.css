@@ -30,15 +30,7 @@ body {
   filter: blur(0.5px);
 }
 
-.letter:hover .char1,
-.letter:hover .char2,
-.letter:hover .char3,
-.letter:hover .char4,
-.letter:hover .char5,
-.letter:hover .char6,
-.letter:hover .char7,
-.letter:hover .char8,
-.letter:hover .char9 {
+.letter:hover > span {
   background: #ff54a1;
   transform: skewY(0deg);
   filter: blur(0);
